@@ -1,14 +1,14 @@
 #!/bin/bash
 
 afis_utilizare(){
-    echo "Scriptul se poate utiliza prin folosirea urmatoarelor comenzi:"
+    echo "The script can be used with the following commands:"
     echo "./MyLast.sh [-n NUM] [-p USER] [-s START] [-t END]"
-    echo "Argumente posibile:"
-    echo "-n NUM -> Afiseaza ultimele NUM intrari"
-    echo "-p USER -> Afiseaza intrarile user-ului dat"
-    echo "-s START -> Afiseaza intrarile dupa o anumita data"
-    echo "-t END -> Afiseaza intrarile pana la o anumita data"
-    echo 'Pentru -s -t data are formatul: "YYYY-MM-DDTHH-MM-SS" '
+    echo "Possible arguments:"
+    echo "-n NUM -> Displays the last NUM entries"
+    echo "-p USER -> Displays entries for the specified user"
+    echo "-s START -> Displays entries after a specific date"
+    echo "-t END -> Displays entries up to a specific date"
+    echo 'For -s and -t, the date format is: "YYYY-MM-DDTHH-MM-SS"'
     
     exit 1
 }
